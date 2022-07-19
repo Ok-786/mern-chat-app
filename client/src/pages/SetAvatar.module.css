@@ -1,0 +1,12 @@
+.selected {
+    border: 10px solid #388adc;
+    border-radius: 50%;
+    width: 60%;
+    height: 80%;
+    padding: 2px;
+}
+
+.notSelected {
+    width: 60%;
+    height: 80%;
+}
