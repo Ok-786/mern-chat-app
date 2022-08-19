@@ -13,7 +13,7 @@ function Messages({ messages, scrollRef }) {
             {
                 messages.map((message) => {
                     return (
-                        <div key={message.message}>
+                        <div key={message.message + Math.random()}>
                             <div className={message.fromSelf ? styles['sended'] : styles['recieved']}>
                                 {message.message}
                             </div>
