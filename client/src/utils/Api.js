@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-export const url = process.env.NODE_ENV === 'development' ? 'http://localhost:8000' : '';
+export const url = process.env.NODE_ENV === 'development' && 'http://localhost:8000';
 
 export const axiosSignup = async (formData) => await axios.post(`${url}/api/auth/register`, formData);
 export const axiosSignin = async (formData) => await axios.post(`${url}/api/auth/login`, formData);

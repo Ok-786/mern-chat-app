@@ -1,6 +1,6 @@
 
 import React, { Fragment, useState } from 'react'
-import { Grid, IconButton, Paper, Typography } from '@mui/material';
+import { Grid, Paper } from '@mui/material';
 import { Container } from '@mui/system';
 import styles from './AuthenticationPage.module.css';
 import NavigationTab from '../components/NavigationTab/NavigationTab';

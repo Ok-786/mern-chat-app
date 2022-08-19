@@ -31,6 +31,7 @@ export default function Chat() {
     useEffect(() => {
         if (selectedContact) {
             socket.current = io(url);
+            console.log('dadad')
             socket.current.emit("add-user", selectedContact._id)
         }
     }, [selectedContact])
